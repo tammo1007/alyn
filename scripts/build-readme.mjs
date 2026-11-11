@@ -109,7 +109,7 @@ function render(d) {
   const skills = thousands(d.stats.skills);
 
   return `<p align="center">
-  <a href="${SITE}"><img src=".github/cover.jpg" alt="Alyn: find the best free AI skills for your coding agent" width="100%"></a>
+  <a href="${SITE}"><img src=".github/cover.jpg" alt="Alyn: AI skills to superpower your agents" width="100%"></a>
 </p>
 
 <h1 align="center">Alyn</h1>
@@ -117,10 +117,10 @@ function render(d) {
 <p align="center"><b>The right skill for every task, in every agent.</b></p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/alyn-cli"><img src="https://img.shields.io/npm/v/alyn-cli?color=2b47f0&label=alyn-cli" alt="npm version"></a>
+  <a href="https://www.npmjs.com/package/alyn-cli"><img src="https://img.shields.io/npm/v/alyn-cli?color=0297de&label=alyn-cli" alt="npm version"></a>
   <a href="https://github.com/${REPO}/actions/workflows/ci.yml"><img src="https://github.com/${REPO}/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="mcp/README.md"><img src="https://img.shields.io/badge/MCP-alyn.dev%2Fmcp-2b47f0" alt="Alyn MCP"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-2b47f0" alt="MIT license"></a>
+  <a href="mcp/README.md"><img src="https://img.shields.io/badge/MCP-alyn.dev%2Fmcp-0297de" alt="Alyn MCP"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-0297de" alt="MIT license"></a>
 </p>
 
 <p align="center">
