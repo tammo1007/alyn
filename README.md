@@ -54,13 +54,7 @@ Then just work as usual:
 
 > *Make this pricing page look less AI-generated.*
 
-```mermaid
-flowchart LR
-  A["Your task"] --> B["find_skills"]
-  B --> C["Best skill<br/>ranked by stars, installs, quality"]
-  C --> D["load_skill"]
-  D --> E["Your agent follows it"]
-```
+<p align="center"><code>your task</code> → <code>find_skills</code> → <code>best skill</code> → <code>load_skill</code> → <b>done</b></p>
 
 The agent calls `find_skills`, picks the best match and loads it for the current session. To keep a skill for good, it calls `install_skill`. [All tools →](mcp/README.md#tools)
 
