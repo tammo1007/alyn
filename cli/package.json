@@ -1,0 +1,37 @@
+{
+  "name": "alyn-cli",
+  "version": "0.1.1",
+  "description": "Install the best AI skills for Claude Code, Cursor, Codex and 70+ agents. npx alyn-cli add <skill>",
+  "bin": {
+    "alyn": "bin/alyn.mjs"
+  },
+  "type": "module",
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "agent-skills",
+    "skills",
+    "skill.md",
+    "cursor",
+    "codex",
+    "mcp",
+    "ai"
+  ],
+  "homepage": "https://alyn.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tammo1007/alyn.git",
+    "directory": "cli"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://alyn.dev/submit"
+  }
+}

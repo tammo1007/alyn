@@ -1,0 +1,50 @@
+# Publishes the Alyn CLI (cli/) to npm as alyn-cli. No terminal needed:
+# Actions → "Publish CLI to npm" → Run workflow → pick a version bump.
+# Uses npm Trusted Publishing (npmjs.com → alyn-cli → Settings → Trusted publisher:
+# tammo1007 / alyn / publish-cli.yml). The NPM_TOKEN secret is only a fallback.
+name: Publish CLI to npm
+
+on:
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: "Version bump (none = publish the version in cli/package.json as is)"
+        type: choice
+        default: patch
+        options: [none, patch, minor, major]
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cli
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          registry-url: https://registry.npmjs.org
+      - name: Use a recent npm (needed for Trusted Publishing)
+        run: npm install -g npm@latest
+      - name: Bump version
+        if: inputs.bump != 'none'
+        run: |
+          npm version ${{ inputs.bump }} --no-git-tag-version
+          git config user.name "alyn-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "cli: release $(node -p "require('./package.json').version")"
+          git push
+      - name: Smoke test
+        run: node bin/alyn.mjs help
+      - name: Publish
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Done
+        run: |
+          echo "Published alyn-cli $(node -p "require('./package.json').version")"

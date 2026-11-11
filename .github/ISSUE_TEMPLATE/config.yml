@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Submit a skill
+    url: https://alyn.dev/submit
+    about: Alyn finds public skills on GitHub on its own. Missing one? Submit it here.
+  - name: Report a problem with a skill or the site
+    url: https://alyn.dev/submit
+    about: Tell us on alyn.dev.
