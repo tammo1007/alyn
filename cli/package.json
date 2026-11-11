@@ -1,6 +1,6 @@
 {
   "name": "alyn-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Install the best AI skills for Claude Code, Cursor, Codex and 70+ agents. npx alyn-cli add <skill>",
   "bin": {
     "alyn": "bin/alyn.mjs"
