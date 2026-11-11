@@ -1,13 +1,11 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readdirSync, readFileSync } from "node:fs";
-import { spawnSync } from "node:child_process";
 
 const root = new URL("../skills/", import.meta.url).pathname;
-const checker = new URL("../skills/skill-check/scripts/check.mjs", import.meta.url).pathname;
 const skills = readdirSync(root, { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => d.name);
 
-test("there are skills to check", () => assert.ok(skills.length >= 3));
+test("there are skills to check", () => assert.ok(skills.length >= 2));
 
 for (const name of skills) {
   test(`${name}: frontmatter name matches the folder`, () => {
@@ -16,13 +14,9 @@ for (const name of skills) {
     assert.match(text, new RegExp(`^name: ${name}$`, "m"));
     assert.match(text, /^description: .{80,1024}$/m);
     assert.match(text, /^license: MIT$/m);
+    const body = text.split(/^---$/m).slice(2).join("---");
+    assert.ok(body.length >= 1500, `${name} body is only ${body.length} characters`);
+    assert.match(text.split(/^---$/m)[1], /\b(use (it )?when|when the user)\b/i, "description must say when to use it");
   });
 
-  test(`${name}: passes the Alyn quality checks it can`, () => {
-    const r = spawnSync(process.execPath, [checker, `${root}${name}`], { encoding: "utf8" });
-    assert.equal(r.status, 0, r.stderr);
-    const score = Number(/Quality (\d+)\/100/.exec(r.stdout)?.[1]);
-    assert.ok(score >= 85, `${name} scored ${score}\n${r.stdout}`);
-    for (const check of ["trigger", "description", "depth", "license", "docs"]) assert.match(r.stdout, new RegExp(`${check}\\s+✓`));
-  });
 }

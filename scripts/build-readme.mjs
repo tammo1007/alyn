@@ -183,12 +183,11 @@ Detects Claude Code, Cursor, Codex and 70+ other agents. [CLI docs →](cli/READ
 
 ## Alyn skills
 
-Three skills that make any agent better at using skills.
+Two skills that make any agent better at using skills.
 
 | Skill | What it does |
 | --- | --- |
 | [**find-skill**](skills/find-skill/SKILL.md) | Before improvising, the agent asks Alyn for the best existing skill for the task. |
-| [**skill-check**](skills/skill-check/SKILL.md) | Reviews a SKILL.md against the six quality checks of the [Alyn Score](${SITE}/alyn-score) and fixes it. Ships a checker script. |
 | [**alyn-setup**](skills/alyn-setup/SKILL.md) | Sets up a complete skill stack for your kind of work with one of the bundles below. |
 
 \`\`\`bash
