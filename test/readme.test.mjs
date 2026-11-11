@@ -39,5 +39,5 @@ test("no skill appears twice across the top 10 and the categories", () => {
 });
 
 test("README contains no em or en dashes", () => {
-  assert.doesNotMatch(build(), /[—–]/);
+  assert.doesNotMatch(build(), /[\u2014\u2013]/);
 });

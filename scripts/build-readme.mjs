@@ -39,7 +39,7 @@ const title = (s) => s.replace(/[-_]+/g, " ").replace(/\b\w/g, (c) => c.toUpperC
 /** Single line, table-safe, no em or en dashes. */
 const esc = (s) =>
   String(s ?? "")
-    .replace(/\s*[—–]\s*/g, ", ")
+    .replace(/\s*[\u2014\u2013]\s*/g, ", ")
     .replace(/\|/g, "\\|")
     .replace(/\s+/g, " ")
     .trim();
