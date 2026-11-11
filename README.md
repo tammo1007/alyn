@@ -110,7 +110,7 @@ Complete setups for one kind of work, curated by Alyn.
 | 1 | [**Agent Harness Construction**](https://alyn.dev/skills/agent-harness-construction)<br><sub>Design and optimize AI agent action spaces, tool definitions, and observation formatting…</sub> | affaan-m<br><sub>ECC</sub> | ★ 301k<br><sub>1k/day</sub> | `npx alyn-cli add agent-harness-construction` |
 | 2 | [**Reverse Skill Router**](https://alyn.dev/skills/reverse-skill-router)<br><sub>Routes reverse engineering, exploitation, penetration testing, malware, mobile, firmware,…</sub> | zhaoxuya520<br><sub>Reverse Skill</sub> | ★ 44.5k<br><sub>244/day</sub> | `npx alyn-cli add reverse-skill-router` |
 | 3 | [**Code Review**](https://alyn.dev/skills/code-review)<br><sub>Review the changes since a fixed point (commit, branch, tag, or merge-base) along two…</sub> | Matt Pocock<br><sub>Matt Pocock</sub> | ★ 321k<br><sub>1.1k/day</sub> | `npx alyn-cli add code-review` |
-| 4 | [**Analyzing Ios App Security With Objection**](https://alyn.dev/skills/analyzing-ios-app-security-with-objection)<br><sub>Runtime iOS app security testing with Objection (Frida): inspect keychain and filesystem…</sub> | mukul975<br><sub>Anthropic Cybersecurity</sub> | ★ 35.9k<br><sub>138/day</sub> | `npx alyn-cli add analyzing-ios-app-security-with-objection` |
+| 4 | [**Analyzing iOS App Security With Objection**](https://alyn.dev/skills/analyzing-ios-app-security-with-objection)<br><sub>Runtime iOS app security testing with Objection (Frida): inspect keychain and filesystem…</sub> | mukul975<br><sub>Anthropic Cybersecurity</sub> | ★ 35.9k<br><sub>138/day</sub> | `npx alyn-cli add analyzing-ios-app-security-with-objection` |
 | 5 | [**Acreadiness Generate Instructions**](https://alyn.dev/skills/acreadiness-generate-instructions)<br><sub>Generate tailored AI agent instruction files via AgentRC instructions command. Produces…</sub> | GitHub<br><sub>Awesome Copilot</sub> | ★ 41k<br><sub>79/day</sub> | `npx alyn-cli add acreadiness-generate-instructions` |
 | 6 | [**Accounting Software Selection**](https://alyn.dev/skills/accounting-software-selection)<br><sub>Scores shortlisted accounting packages against 57 evidence-backed fields, emitted as CSV,…</sub> | sickn33<br><sub>Agentic Awesome</sub> | ★ 49.5k<br><sub>165/day</sub> | `npx alyn-cli add accounting-software-selection` |
 | 7 | [**Analytics**](https://alyn.dev/skills/analytics)<br><sub>When the user wants to set up or audit analytics, or asks whether a metric or number is…</sub> | Corey Haines<br><sub>Marketingskills</sub> | ★ 59.7k<br><sub>199/day</sub> | `npx alyn-cli add analytics` |
@@ -123,14 +123,14 @@ Complete setups for one kind of work, curated by Alyn.
 <sub>The three highest-scoring skills in every category. Click to open.</sub>
 
 <details>
-<summary><b>Anti-slop</b> · Impeccable, Anti Ui Slop, Avoid Ai Writing</summary>
+<summary><b>Anti-slop</b> · Impeccable, Anti UI Slop, Avoid AI Writing</summary>
 <br>
 
 | Skill | What it does | By | Stars | Install |
 | --- | --- | --- | --- | --- |
 | [**Impeccable**](https://alyn.dev/skills/impeccable) | Use to design, redesign, critique, audit, polish or animate a frontend: websites, landing pages,… | Paul Bakaus | ★ 108k | `npx alyn-cli add impeccable` |
-| [**Anti Ui Slop**](https://alyn.dev/skills/anti-ui-slop) | Stop coding agents from shipping generic UI. Use UIZZE's 800,000+ real web and iOS screens to build… | GitHub | ★ 41k | `npx alyn-cli add anti-ui-slop` |
-| [**Avoid Ai Writing**](https://alyn.dev/skills/avoid-ai-writing) | Audit and rewrite prose so it stops reading as machine-generated. Use this skill when asked to… | wshobson | ★ 42.4k | `npx alyn-cli add avoid-ai-writing` |
+| [**Anti UI Slop**](https://alyn.dev/skills/anti-ui-slop) | Stop coding agents from shipping generic UI. Use UIZZE's 800,000+ real web and iOS screens to build… | GitHub | ★ 41k | `npx alyn-cli add anti-ui-slop` |
+| [**Avoid AI Writing**](https://alyn.dev/skills/avoid-ai-writing) | Audit and rewrite prose so it stops reading as machine-generated. Use this skill when asked to… | wshobson | ★ 42.4k | `npx alyn-cli add avoid-ai-writing` |
 
 [All anti-slop skills on Alyn →](https://alyn.dev/best-claude-skills/anti-slop)
 
@@ -175,14 +175,14 @@ Complete setups for one kind of work, curated by Alyn.
 
 </details>
 <details>
-<summary><b>Backend</b> · Mcp Builder, Api And Interface Design, Api Design Principles</summary>
+<summary><b>Backend</b> · MCP Builder, API And Interface Design, API Design Principles</summary>
 <br>
 
 | Skill | What it does | By | Stars | Install |
 | --- | --- | --- | --- | --- |
-| [**Mcp Builder**](https://alyn.dev/skills/mcp-builder) | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact… | Anthropic | ★ 193k | `npx alyn-cli add mcp-builder` |
-| [**Api And Interface Design**](https://alyn.dev/skills/api-and-interface-design) | Guides stable API and interface design. Use when designing APIs, module boundaries, or any public… | Addy Osmani | ★ 116k | `npx alyn-cli add api-and-interface-design` |
-| [**Api Design Principles**](https://alyn.dev/skills/api-design-principles) | Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs… | wshobson | ★ 42.4k | `npx alyn-cli add api-design-principles` |
+| [**MCP Builder**](https://alyn.dev/skills/mcp-builder) | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact… | Anthropic | ★ 193k | `npx alyn-cli add mcp-builder` |
+| [**API And Interface Design**](https://alyn.dev/skills/api-and-interface-design) | Guides stable API and interface design. Use when designing APIs, module boundaries, or any public… | Addy Osmani | ★ 116k | `npx alyn-cli add api-and-interface-design` |
+| [**API Design Principles**](https://alyn.dev/skills/api-design-principles) | Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs… | wshobson | ★ 42.4k | `npx alyn-cli add api-design-principles` |
 
 [All backend skills on Alyn →](https://alyn.dev/best-claude-skills/backend)
 
@@ -214,38 +214,38 @@ Complete setups for one kind of work, curated by Alyn.
 
 </details>
 <details>
-<summary><b>Testing</b> · Migrate To Shoehorn, Tdd, Rea Analysis Optimization</summary>
+<summary><b>Testing</b> · Migrate To Shoehorn, TDD, Rea Analysis Optimization</summary>
 <br>
 
 | Skill | What it does | By | Stars | Install |
 | --- | --- | --- | --- | --- |
 | [**Migrate To Shoehorn**](https://alyn.dev/skills/migrate-to-shoehorn) | Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions… | Matt Pocock | ★ 321k | `npx alyn-cli add migrate-to-shoehorn` |
-| [**Tdd**](https://alyn.dev/skills/tdd) | Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions… | Matt Pocock | ★ 321k | `npx alyn-cli add tdd` |
+| [**TDD**](https://alyn.dev/skills/tdd) | Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions… | Matt Pocock | ★ 321k | `npx alyn-cli add tdd` |
 | [**Rea Analysis Optimization**](https://alyn.dev/skills/rea-analysis-optimization) | Optimize REA providers and shared analysis workflows for agent context, latency, CPU, and memory… | morluto | ★ 451k | `npx alyn-cli add rea-analysis-optimization` |
 
 [All testing skills on Alyn →](https://alyn.dev/best-claude-skills/testing)
 
 </details>
 <details>
-<summary><b>DevOps</b> · Launch, Arize Ai Provider Integration, Arize Evaluator</summary>
+<summary><b>DevOps</b> · Launch, Arize AI Provider Integration, Arize Evaluator</summary>
 <br>
 
 | Skill | What it does | By | Stars | Install |
 | --- | --- | --- | --- | --- |
 | [**Launch**](https://alyn.dev/skills/launch) | When the user wants to plan a product or feature launch, or asks whether it's ready, when to… | Corey Haines | ★ 59.7k | `npx alyn-cli add launch` |
-| [**Arize Ai Provider Integration**](https://alyn.dev/skills/arize-ai-provider-integration) | Creates, reads, updates, and deletes Arize AI integrations that store LLM provider credentials used… | GitHub | ★ 41k | `npx alyn-cli add arize-ai-provider-integration` |
+| [**Arize AI Provider Integration**](https://alyn.dev/skills/arize-ai-provider-integration) | Creates, reads, updates, and deletes Arize AI integrations that store LLM provider credentials used… | GitHub | ★ 41k | `npx alyn-cli add arize-ai-provider-integration` |
 | [**Arize Evaluator**](https://alyn.dev/skills/arize-evaluator) | Handles LLM-as-judge evaluation workflows on Arize including creating/updating evaluators, running… | GitHub | ★ 41k | `npx alyn-cli add arize-evaluator` |
 
 [All devops skills on Alyn →](https://alyn.dev/best-claude-skills/devops)
 
 </details>
 <details>
-<summary><b>Security</b> · Rea Ci Tests Audit, Agent Security Hardening, Security And Hardening</summary>
+<summary><b>Security</b> · Rea CI Tests Audit, Agent Security Hardening, Security And Hardening</summary>
 <br>
 
 | Skill | What it does | By | Stars | Install |
 | --- | --- | --- | --- | --- |
-| [**Rea Ci Tests Audit**](https://alyn.dev/skills/rea-ci-tests-audit) | Audit REA CI and test suites for correctness, fixture drift, false passes, and measured… | morluto | ★ 451k | `npx alyn-cli add rea-ci-tests-audit` |
+| [**Rea CI Tests Audit**](https://alyn.dev/skills/rea-ci-tests-audit) | Audit REA CI and test suites for correctness, fixture drift, false passes, and measured… | morluto | ★ 451k | `npx alyn-cli add rea-ci-tests-audit` |
 | [**Agent Security Hardening**](https://alyn.dev/skills/agent-security-hardening) | Security hardening guidance for AI agent frameworks that process untrusted content, invoke tools,… | affaan-m | ★ 301k | `npx alyn-cli add agent-security-hardening` |
 | [**Security And Hardening**](https://alyn.dev/skills/security-and-hardening) | Hardens code against vulnerabilities. Use when auditing an input handler for vulnerabilities, when… | Addy Osmani | ★ 116k | `npx alyn-cli add security-and-hardening` |
 
@@ -266,14 +266,14 @@ Complete setups for one kind of work, curated by Alyn.
 
 </details>
 <details>
-<summary><b>Documents</b> · Canvas Design, Docx, Pdf</summary>
+<summary><b>Documents</b> · Canvas Design, Docx, PDF</summary>
 <br>
 
 | Skill | What it does | By | Stars | Install |
 | --- | --- | --- | --- | --- |
 | [**Canvas Design**](https://alyn.dev/skills/canvas-design) | Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this… | Anthropic | ★ 193k | `npx alyn-cli add canvas-design` |
 | [**Docx**](https://alyn.dev/skills/docx) | Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx… | Anthropic | ★ 193k | `npx alyn-cli add docx` |
-| [**Pdf**](https://alyn.dev/skills/pdf) | Use this skill whenever the user wants to do anything with PDF files. This includes reading or… | Anthropic | ★ 193k | `npx alyn-cli add pdf` |
+| [**PDF**](https://alyn.dev/skills/pdf) | Use this skill whenever the user wants to do anything with PDF files. This includes reading or… | Anthropic | ★ 193k | `npx alyn-cli add pdf` |
 
 [All documents skills on Alyn →](https://alyn.dev/best-claude-skills/documents)
 
@@ -318,39 +318,39 @@ Complete setups for one kind of work, curated by Alyn.
 
 </details>
 <details>
-<summary><b>SEO & GEO</b> · Ai Seo, Aso, Competitor Profiling</summary>
+<summary><b>SEO & GEO</b> · AI SEO, ASO, Competitor Profiling</summary>
 <br>
 
 | Skill | What it does | By | Stars | Install |
 | --- | --- | --- | --- | --- |
-| [**Ai Seo**](https://alyn.dev/skills/ai-seo) | When the user wants to get cited and recommended in AI answers (ChatGPT, Perplexity, AI Overviews),… | Corey Haines | ★ 59.7k | `npx alyn-cli add ai-seo` |
-| [**Aso**](https://alyn.dev/skills/aso) | When the user wants to audit or optimize an App Store or Google Play listing, or asks which title,… | Corey Haines | ★ 59.7k | `npx alyn-cli add aso` |
+| [**AI SEO**](https://alyn.dev/skills/ai-seo) | When the user wants to get cited and recommended in AI answers (ChatGPT, Perplexity, AI Overviews),… | Corey Haines | ★ 59.7k | `npx alyn-cli add ai-seo` |
+| [**ASO**](https://alyn.dev/skills/aso) | When the user wants to audit or optimize an App Store or Google Play listing, or asks which title,… | Corey Haines | ★ 59.7k | `npx alyn-cli add aso` |
 | [**Competitor Profiling**](https://alyn.dev/skills/competitor-profiling) | When the user wants to research competitors into dated profiles, or asks what a rival charges,… | Corey Haines | ★ 59.7k | `npx alyn-cli add competitor-profiling` |
 
 [All seo & geo skills on Alyn →](https://alyn.dev/best-claude-skills/seo)
 
 </details>
 <details>
-<summary><b>Sales</b> · Cold Email, Free Tools, Gtm Motions</summary>
+<summary><b>Sales</b> · Cold Email, Free Tools, GTM Motions</summary>
 <br>
 
 | Skill | What it does | By | Stars | Install |
 | --- | --- | --- | --- | --- |
 | [**Cold Email**](https://alyn.dev/skills/cold-email) | When the user wants to write or run B2B cold outbound, or asks whether an opener, reason to reach… | Corey Haines | ★ 59.7k | `npx alyn-cli add cold-email` |
 | [**Free Tools**](https://alyn.dev/skills/free-tools) | When the user wants to plan or build a free tool as marketing, or asks whether a tool idea is worth… | Corey Haines | ★ 59.7k | `npx alyn-cli add free-tools` |
-| [**Gtm Motions**](https://alyn.dev/skills/gtm-motions) | Identify the best GTM motions and tools across 7 motion types: Inbound, Outbound, Paid Digital,… | phuryn | ★ 27.9k | `npx alyn-cli add gtm-motions` |
+| [**GTM Motions**](https://alyn.dev/skills/gtm-motions) | Identify the best GTM motions and tools across 7 motion types: Inbound, Outbound, Paid Digital,… | phuryn | ★ 27.9k | `npx alyn-cli add gtm-motions` |
 
 [All sales skills on Alyn →](https://alyn.dev/best-claude-skills/sales)
 
 </details>
 <details>
-<summary><b>Product management</b> · Spec Driven Development, Seo Sxo, Agent Architecture</summary>
+<summary><b>Product management</b> · Spec Driven Development, SEO SXO, Agent Architecture</summary>
 <br>
 
 | Skill | What it does | By | Stars | Install |
 | --- | --- | --- | --- | --- |
 | [**Spec Driven Development**](https://alyn.dev/skills/spec-driven-development) | Creates specs before coding. Use when starting a new project, feature, or significant change and no… | Addy Osmani | ★ 116k | `npx alyn-cli add spec-driven-development` |
-| [**Seo Sxo**](https://alyn.dev/skills/seo-sxo) | Diagnose search-experience and intent mismatches using SERP page types, user stories, and persona… | AgriciDaniel | ★ 28k | `npx alyn-cli add seo-sxo` |
+| [**SEO SXO**](https://alyn.dev/skills/seo-sxo) | Diagnose search-experience and intent mismatches using SERP page types, user stories, and persona… | AgriciDaniel | ★ 28k | `npx alyn-cli add seo-sxo` |
 | [**Agent Architecture**](https://alyn.dev/skills/agent-architecture) | Design AI agent architectures through requirements discovery, or audit and diagnose architectural… | GitHub | ★ 41k | `npx alyn-cli add agent-architecture` |
 
 [All product management skills on Alyn →](https://alyn.dev/best-claude-skills/product-management)
@@ -422,13 +422,13 @@ Complete setups for one kind of work, curated by Alyn.
 
 </details>
 <details>
-<summary><b>Automation</b> · Ai Regression Testing, Api Connector Builder, Automation Audit Ops</summary>
+<summary><b>Automation</b> · AI Regression Testing, API Connector Builder, Automation Audit Ops</summary>
 <br>
 
 | Skill | What it does | By | Stars | Install |
 | --- | --- | --- | --- | --- |
-| [**Ai Regression Testing**](https://alyn.dev/skills/ai-regression-testing) | Regression testing strategies for AI-assisted development. Sandbox-mode API testing without… | affaan-m | ★ 301k | `npx alyn-cli add ai-regression-testing` |
-| [**Api Connector Builder**](https://alyn.dev/skills/api-connector-builder) | Build a new API connector or provider by matching the target repo's existing integration pattern… | affaan-m | ★ 301k | `npx alyn-cli add api-connector-builder` |
+| [**AI Regression Testing**](https://alyn.dev/skills/ai-regression-testing) | Regression testing strategies for AI-assisted development. Sandbox-mode API testing without… | affaan-m | ★ 301k | `npx alyn-cli add ai-regression-testing` |
+| [**API Connector Builder**](https://alyn.dev/skills/api-connector-builder) | Build a new API connector or provider by matching the target repo's existing integration pattern… | affaan-m | ★ 301k | `npx alyn-cli add api-connector-builder` |
 | [**Automation Audit Ops**](https://alyn.dev/skills/automation-audit-ops) | Evidence-first automation inventory and overlap audit workflow for ECC. Use when the user wants to… | affaan-m | ★ 301k | `npx alyn-cli add automation-audit-ops` |
 
 [All automation skills on Alyn →](https://alyn.dev/best-claude-skills/automation)
@@ -487,12 +487,12 @@ Complete setups for one kind of work, curated by Alyn.
 
 </details>
 <details>
-<summary><b>Game development</b> · Ai Behavior Trees Utility Ai, Audio Design, Camera Systems</summary>
+<summary><b>Game development</b> · AI Behavior Trees Utility AI, Audio Design, Camera Systems</summary>
 <br>
 
 | Skill | What it does | By | Stars | Install |
 | --- | --- | --- | --- | --- |
-| [**Ai Behavior Trees Utility Ai**](https://alyn.dev/skills/ai-behavior-trees-utility-ai) | Build a production behavior-tree runtime (Blackboard, action/condition leaves,… | gamedev-skills | ★ 8.3k | `npx alyn-cli add ai-behavior-trees-utility-ai` |
+| [**AI Behavior Trees Utility AI**](https://alyn.dev/skills/ai-behavior-trees-utility-ai) | Build a production behavior-tree runtime (Blackboard, action/condition leaves,… | gamedev-skills | ★ 8.3k | `npx alyn-cli add ai-behavior-trees-utility-ai` |
 | [**Audio Design**](https://alyn.dev/skills/audio-design) | Implement game audio practice, bus/mixer architecture and gain in decibels, ducking (sidechain),… | gamedev-skills | ★ 8.3k | `npx alyn-cli add audio-design` |
 | [**Camera Systems**](https://alyn.dev/skills/camera-systems) | Build game cameras that feel good, 2D follow with a deadzone, look-ahead, smoothing, and… | gamedev-skills | ★ 8.3k | `npx alyn-cli add camera-systems` |
 
@@ -526,14 +526,14 @@ Complete setups for one kind of work, curated by Alyn.
 
 </details>
 <details>
-<summary><b>Legal</b> · Accessibility Compliance Accessibility Audit, Solidity Security, Wcag Audit Patterns</summary>
+<summary><b>Legal</b> · Accessibility Compliance Accessibility Audit, Solidity Security, WCAG Audit Patterns</summary>
 <br>
 
 | Skill | What it does | By | Stars | Install |
 | --- | --- | --- | --- | --- |
 | [**Accessibility Compliance Accessibility Audit**](https://alyn.dev/skills/accessibility-compliance-accessibility-audit) | Audit pages and user journeys against a declared WCAG scope. Use when identifying keyboard,… | sickn33 | ★ 49.5k | `npx alyn-cli add accessibility-compliance-accessibility-audit` |
 | [**Solidity Security**](https://alyn.dev/skills/solidity-security) | Master smart contract security best practices to prevent common vulnerabilities and implement… | wshobson | ★ 42.4k | `npx alyn-cli add solidity-security` |
-| [**Wcag Audit Patterns**](https://alyn.dev/skills/wcag-audit-patterns) | Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation… | wshobson | ★ 42.4k | `npx alyn-cli add wcag-audit-patterns` |
+| [**WCAG Audit Patterns**](https://alyn.dev/skills/wcag-audit-patterns) | Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation… | wshobson | ★ 42.4k | `npx alyn-cli add wcag-audit-patterns` |
 
 [All legal skills on Alyn →](https://alyn.dev/best-claude-skills/legal)
 
@@ -552,14 +552,14 @@ Complete setups for one kind of work, curated by Alyn.
 
 </details>
 <details>
-<summary><b>E-commerce</b> · Event Store Design, Seo, Seo Ecommerce</summary>
+<summary><b>E-commerce</b> · Event Store Design, SEO, SEO Ecommerce</summary>
 <br>
 
 | Skill | What it does | By | Stars | Install |
 | --- | --- | --- | --- | --- |
 | [**Event Store Design**](https://alyn.dev/skills/event-store-design) | Design and implement event stores for event-sourced systems. Use when building event sourcing… | wshobson | ★ 42.4k | `npx alyn-cli add event-store-design` |
-| [**Seo**](https://alyn.dev/skills/seo) | Comprehensive SEO analysis for any website or business type. Full site audits, single-page… | AgriciDaniel | ★ 28k | `npx alyn-cli add seo` |
-| [**Seo Ecommerce**](https://alyn.dev/skills/seo-ecommerce) | Analyze ecommerce SEO across product pages, product schema, Shopping visibility, marketplace… | AgriciDaniel | ★ 28k | `npx alyn-cli add seo-ecommerce` |
+| [**SEO**](https://alyn.dev/skills/seo) | Comprehensive SEO analysis for any website or business type. Full site audits, single-page… | AgriciDaniel | ★ 28k | `npx alyn-cli add seo` |
+| [**SEO Ecommerce**](https://alyn.dev/skills/seo-ecommerce) | Analyze ecommerce SEO across product pages, product schema, Shopping visibility, marketplace… | AgriciDaniel | ★ 28k | `npx alyn-cli add seo-ecommerce` |
 
 [All e-commerce skills on Alyn →](https://alyn.dev/best-claude-skills/ecommerce)
 

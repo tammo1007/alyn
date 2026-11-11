@@ -35,7 +35,11 @@ const compact = (n) => {
   if (n >= 1e3) return `${(n / 1e3).toFixed(1).replace(/\.0$/, "")}k`;
   return String(n);
 };
-const title = (s) => s.replace(/[-_]+/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+const ACRONYMS = { ai: "AI", ui: "UI", ux: "UX", api: "API", seo: "SEO", geo: "GEO", aso: "ASO", pdf: "PDF", prd: "PRD", mcp: "MCP", gtm: "GTM", cro: "CRO", ios: "iOS", css: "CSS", sql: "SQL", llm: "LLM", cli: "CLI", ci: "CI", qa: "QA", d3: "D3", tdd: "TDD", wcag: "WCAG", sxo: "SXO" };
+const title = (s) =>
+  s
+    .replace(/[-_]+/g, " ")
+    .replace(/\b\w+/g, (w) => ACRONYMS[w.toLowerCase()] ?? w[0].toUpperCase() + w.slice(1));
 /** Single line, table-safe, no em or en dashes. */
 const esc = (s) =>
   String(s ?? "")
