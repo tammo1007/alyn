@@ -37,8 +37,11 @@ const description = field("description");
 const files = readdirSync(dir).filter((f) => !f.startsWith("."));
 const parents = [dir, dirname(dir), dirname(dirname(dir)), dirname(dirname(dirname(dir)))];
 const anyUp = (test) => parents.some((p) => existsSync(p) && readdirSync(p).some(test));
-const readme = parents.map((p) => ["README.md", "readme.md"].map((f) => join(p, f)).find(existsSync)).find(Boolean);
-const readmeText = readme ? readFileSync(readme, "utf8") : "";
+const readmes = parents.map((p) => ["README.md", "readme.md"].map((f) => join(p, f)).find(existsSync)).filter(Boolean);
+const goodReadme = readmes.find((f) => {
+  const t = readFileSync(f, "utf8");
+  return /!\[[^\]]*\]\(|<img\s/i.test(t) || /https?:\/\//.test(t);
+});
 
 const results = {
   trigger: [TRIGGER.test(description), TRIGGER.test(description) ? "says when to use it" : "description never says when to use it"],
@@ -46,7 +49,7 @@ const results = {
   depth: [body.length >= 1500 && body.length <= 40000, `${body.length.toLocaleString("en-US")} characters in the body (1,500 to 40,000)`],
   resources: [files.includes("scripts") || files.includes("references") || files.length > 1, files.length > 1 ? `ships ${files.length - 1} more file(s) or folder(s)` : "only SKILL.md"],
   license: [!!field("license") || anyUp((f) => /^licen[sc]e/i.test(f)), field("license") ? `license: ${field("license")}` : anyUp((f) => /^licen[sc]e/i.test(f)) ? "LICENSE file found" : "no license"],
-  docs: [!!readme && (/!\[[^\]]*\]\(|<img\s/i.test(readmeText) || /https?:\/\//.test(readmeText)), readme ? "README found" : "no README in the skill or repo"],
+  docs: [!!goodReadme, goodReadme ? "README with a cover image or link" : readmes.length ? "README has no cover image or link" : "no README in the skill or repo"],
 };
 
 const score = Object.entries(results).reduce((s, [k, [ok]]) => s + (ok ? WEIGHTS[k] : 0), 0);

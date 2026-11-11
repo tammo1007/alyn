@@ -28,7 +28,7 @@ The current list with every skill in each bundle: https://alyn.dev/bundles
 
 1. If the user did not say what they work on, ask one question: "What do you mostly use your agent for?" Offer the bundle names as options.
 2. Pick one bundle, two at most. Say in one line what it contains and why it fits.
-3. Ask before installing. Then run the command. Add `-a <agent>` if the user named an agent (`claude-code`, `cursor`, `codex`, ...) and `-g` to install for every project.
+3. Ask before installing. Then run the command. Add `-a <agent>` if the user named an agent and `-g` to install for every project. The agent ids and folders are in [references/agents.md](references/agents.md).
 4. Tell the user the skills are active in the next agent session.
 
 If the Alyn MCP tools are connected, `get_bundle` returns the exact skills of a bundle and works without a shell.

@@ -1,0 +1,681 @@
+{
+ "generated": "2026-11-11T16:50:39.042Z",
+ "week": "2026-11-09",
+ "stats": {
+  "skills": 6134,
+  "repos": 477,
+  "creators": 445,
+  "stars": 6458623,
+  "installs": 122488359,
+  "official": 456,
+  "synced": "2026-11-11T11:04:20.604Z"
+ },
+ "top10": [
+  {
+   "slug": "agent-harness-construction",
+   "name": "agent-harness-construction",
+   "description": "Design and optimize AI agent action spaces, tool definitions, and observation formatting for higher completion rates. Use when defining or revising an agent's tool set, action space, or\u2026",
+   "author": "affaan-m",
+   "repo": "affaan-m/ECC",
+   "stars": 301015,
+   "url": "https://alyn.dev/skills/agent-harness-construction",
+   "install": "npx alyn-cli add agent-harness-construction",
+   "pack": "ECC",
+   "packSize": 30,
+   "starsThisWeek": null,
+   "starsPerDay": 1011
+  },
+  {
+   "slug": "reverse-skill-router",
+   "name": "reverse-skill-router",
+   "description": "Routes reverse engineering, exploitation, penetration testing, malware, mobile, firmware, browser automation, documentation, and security tasks to the appropriate specialist skill. Use when\u2026",
+   "author": "zhaoxuya520",
+   "repo": "zhaoxuya520/reverse-skill",
+   "stars": 44472,
+   "url": "https://alyn.dev/skills/reverse-skill-router",
+   "install": "npx alyn-cli add reverse-skill-router",
+   "pack": "Reverse Skill",
+   "packSize": 30,
+   "starsThisWeek": null,
+   "starsPerDay": 244
+  },
+  {
+   "slug": "code-review",
+   "name": "code-review",
+   "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repo's documented coding standards?) and Spec (does the code\u2026",
+   "author": "Matt Pocock",
+   "repo": "mattpocock/skills",
+   "stars": 321452,
+   "url": "https://alyn.dev/skills/code-review",
+   "install": "npx alyn-cli add code-review",
+   "pack": "Matt Pocock",
+   "packSize": 39,
+   "starsThisWeek": null,
+   "starsPerDay": 1143
+  },
+  {
+   "slug": "analyzing-ios-app-security-with-objection",
+   "name": "analyzing-ios-app-security-with-objection",
+   "description": "Runtime iOS app security testing with Objection (Frida): inspect keychain and filesystem data, explore app internals at runtime, and validate/bypass client-side protections during\u2026",
+   "author": "mukul975",
+   "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+   "stars": 35901,
+   "url": "https://alyn.dev/skills/analyzing-ios-app-security-with-objection",
+   "install": "npx alyn-cli add analyzing-ios-app-security-with-objection",
+   "pack": "Anthropic Cybersecurity",
+   "packSize": 30,
+   "starsThisWeek": null,
+   "starsPerDay": 138
+  },
+  {
+   "slug": "acreadiness-generate-instructions",
+   "name": "acreadiness-generate-instructions",
+   "description": "Generate tailored AI agent instruction files via AgentRC instructions command. Produces .github/copilot-instructions.md (default, recommended for Copilot in VS Code) plus optional per-area\u2026",
+   "author": "GitHub",
+   "repo": "github/awesome-copilot",
+   "stars": 41036,
+   "url": "https://alyn.dev/skills/acreadiness-generate-instructions",
+   "install": "npx alyn-cli add acreadiness-generate-instructions",
+   "pack": "Awesome Copilot",
+   "packSize": 30,
+   "starsThisWeek": null,
+   "starsPerDay": 79
+  },
+  {
+   "slug": "accounting-software-selection",
+   "name": "accounting-software-selection",
+   "description": "Scores shortlisted accounting packages against 57 evidence-backed fields, emitted as CSV, SQL, JSON Schema or Notion on request. Use for choosing accounting software.",
+   "author": "sickn33",
+   "repo": "sickn33/agentic-awesome-skills",
+   "stars": 49520,
+   "url": "https://alyn.dev/skills/accounting-software-selection",
+   "install": "npx alyn-cli add accounting-software-selection",
+   "pack": "Agentic Awesome",
+   "packSize": 30,
+   "starsThisWeek": null,
+   "starsPerDay": 165
+  },
+  {
+   "slug": "analytics",
+   "name": "analytics",
+   "description": "When the user wants to set up or audit analytics, or asks whether a metric or number is calculated right, what to track, or how to name events: tracking plans, GA4, GTM, Mixpanel, PostHog\u2026",
+   "author": "Corey Haines",
+   "repo": "coreyhaines31/marketingskills",
+   "stars": 59663,
+   "url": "https://alyn.dev/skills/analytics",
+   "install": "npx alyn-cli add analytics",
+   "pack": "Marketingskills",
+   "packSize": 53,
+   "starsThisWeek": null,
+   "starsPerDay": 199
+  },
+  {
+   "slug": "baoyu-comic",
+   "name": "baoyu-comic",
+   "description": "Knowledge comic creator supporting multiple art styles and tones. Creates original educational comics with detailed panel layouts and batch-capable image generation. Use when user asks to\u2026",
+   "author": "JimLiu",
+   "repo": "JimLiu/baoyu-skills",
+   "stars": 27466,
+   "url": "https://alyn.dev/skills/baoyu-comic",
+   "install": "npx alyn-cli add baoyu-comic",
+   "pack": "Baoyu",
+   "packSize": 22,
+   "starsThisWeek": null,
+   "starsPerDay": 91
+  },
+  {
+   "slug": "aeon",
+   "name": "aeon",
+   "description": "This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use\u2026",
+   "author": "K-Dense",
+   "repo": "K-Dense-AI/scientific-agent-skills",
+   "stars": 56798,
+   "url": "https://alyn.dev/skills/aeon",
+   "install": "npx alyn-cli add aeon",
+   "pack": "Scientific",
+   "packSize": 30,
+   "starsThisWeek": null,
+   "starsPerDay": 146
+  },
+  {
+   "slug": "create-video",
+   "name": "create-video",
+   "description": "Create videos from a text prompt using HeyGen's Video Agent. Use when: (1) Creating a video from a description or idea, (2) Generating explainer, demo, or marketing videos from a prompt\u2026",
+   "author": "OpenMontage",
+   "repo": "OpenMontageInc/OpenMontage",
+   "stars": 79555,
+   "url": "https://alyn.dev/skills/create-video",
+   "install": "npx alyn-cli add create-video",
+   "pack": "OpenMontage",
+   "packSize": 30,
+   "starsThisWeek": null,
+   "starsPerDay": 350
+  }
+ ],
+ "categories": [
+  {
+   "id": "anti-slop",
+   "name": "Anti-slop",
+   "url": "https://alyn.dev/best-claude-skills/anti-slop",
+   "skills": [
+    {
+     "slug": "impeccable",
+     "name": "impeccable",
+     "description": "Use to design, redesign, critique, audit, polish or animate a frontend: websites, landing pages, dashboards, app UI, components, native iOS/Android screens, or a design system (DESIGN.md).",
+     "author": "Paul Bakaus",
+     "repo": "pbakaus/impeccable",
+     "stars": 107905,
+     "url": "https://alyn.dev/skills/impeccable",
+     "install": "npx alyn-cli add impeccable"
+    },
+    {
+     "slug": "anti-ui-slop",
+     "name": "anti-ui-slop",
+     "description": "Stop coding agents from shipping generic UI. Use UIZZE's 800,000+ real web and iOS screens to build product-specific interfaces, define a design contract, cover required states, and run a\u2026",
+     "author": "GitHub",
+     "repo": "github/awesome-copilot",
+     "stars": 41036,
+     "url": "https://alyn.dev/skills/anti-ui-slop",
+     "install": "npx alyn-cli add anti-ui-slop"
+    },
+    {
+     "slug": "avoid-ai-writing",
+     "name": "avoid-ai-writing",
+     "description": "Audit and rewrite prose so it stops reading as machine-generated. Use this skill when asked to remove AI-isms, clean up AI writing, edit a draft for AI tells, audit a README, changelog\u2026",
+     "author": "wshobson",
+     "repo": "wshobson/agents",
+     "stars": 42408,
+     "url": "https://alyn.dev/skills/avoid-ai-writing",
+     "install": "npx alyn-cli add avoid-ai-writing"
+    },
+    {
+     "slug": "design-taste-frontend",
+     "name": "design-taste-frontend",
+     "description": "tasteskill 2.5.1, the anti-slop frontend skill. Builds professional company websites at the level of figma.com and x.ai: plain copy in a voice of its own, one system, one section per\u2026",
+     "author": "Leonxlnx",
+     "repo": "Leonxlnx/taste-skill",
+     "stars": 113217,
+     "url": "https://alyn.dev/skills/design-taste-frontend",
+     "install": "npx alyn-cli add design-taste-frontend"
+    },
+    {
+     "slug": "hallmark",
+     "name": "hallmark",
+     "description": "Design skill for websites and new pages that look designed, not generated. Use when the user asks to build or design something new, or names Hallmark. Never use it on an existing design\u2026",
+     "author": "Hassan El Mghari",
+     "repo": "Nutlope/hallmark",
+     "stars": 52987,
+     "url": "https://alyn.dev/skills/hallmark",
+     "install": "npx alyn-cli add hallmark"
+    },
+    {
+     "slug": "humanizer",
+     "name": "humanizer",
+     "description": "Rewrite AI-sounding text so it reads like the writer without changing what it says. Use when editing or reviewing prose for AI tells: not-X-but-Y contrasts, one-line closers, staged\u2026",
+     "author": "blader",
+     "repo": "blader/humanizer",
+     "stars": 67746,
+     "url": "https://alyn.dev/skills/humanizer",
+     "install": "npx alyn-cli add humanizer"
+    },
+    {
+     "slug": "unslop",
+     "name": "unslop",
+     "description": "Turns vibecoded, AI-looking UI into a designed interface with its own character. Finds a direction from the product itself, then fixes spacing, color, icons, copy, type, layout, details\u2026",
+     "author": "heydamir",
+     "repo": "heydamir/unslop",
+     "stars": 14156,
+     "url": "https://alyn.dev/skills/unslop",
+     "install": "npx alyn-cli add unslop"
+    },
+    {
+     "slug": "write",
+     "name": "write",
+     "description": "Rewrites and polishes Chinese or English prose, technical instructions, and product copy. Use when drafting, editing, localizing, or cutting AI tone. Not for code comments or commit\u2026",
+     "author": "tw93",
+     "repo": "tw93/Waza",
+     "stars": 7563,
+     "url": "https://alyn.dev/skills/write",
+     "install": "npx alyn-cli add write"
+    },
+    {
+     "slug": "ai-writing-detector",
+     "name": "ai-writing-detector",
+     "description": "Use when the user asks to detect, scan, audit, score, or flag AI-writing patterns without rewriting the text, including requests for a deterministic local detector result when the host can\u2026",
+     "author": "conorbronsdon",
+     "repo": "conorbronsdon/avoid-ai-writing",
+     "stars": 5573,
+     "url": "https://alyn.dev/skills/ai-writing-detector",
+     "install": "npx alyn-cli add ai-writing-detector"
+    },
+    {
+     "slug": "avoid-ai-writing-by-conorbronsdon",
+     "name": "avoid-ai-writing",
+     "description": "Audit and rewrite content to remove AI writing patterns (\"AI-isms\"). Use this skill when asked to \"remove AI-isms,\" \"clean up AI writing,\" \"edit writing for AI patterns,\" \"audit writing for\u2026",
+     "author": "conorbronsdon",
+     "repo": "conorbronsdon/avoid-ai-writing",
+     "stars": 5573,
+     "url": "https://alyn.dev/skills/avoid-ai-writing-by-conorbronsdon",
+     "install": "npx alyn-cli add avoid-ai-writing-by-conorbronsdon"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "name": "Design",
+   "url": "https://alyn.dev/best-claude-skills/design",
+   "skills": [
+    {
+     "slug": "prototype",
+     "name": "prototype",
+     "description": "Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.",
+     "author": "Matt Pocock",
+     "repo": "mattpocock/skills",
+     "stars": 321452,
+     "url": "https://alyn.dev/skills/prototype",
+     "install": "npx alyn-cli add prototype"
+    },
+    {
+     "slug": "brand-discovery",
+     "name": "brand-discovery",
+     "description": "Run a structured, resumable multi-session brand identity interview across 8 modules (purpose, positioning, audience, personality, voice, narrative, founder tension) using laddering, 5 Whys\u2026",
+     "author": "affaan-m",
+     "repo": "affaan-m/ECC",
+     "stars": 301015,
+     "url": "https://alyn.dev/skills/brand-discovery",
+     "install": "npx alyn-cli add brand-discovery"
+    },
+    {
+     "slug": "accessibility",
+     "name": "accessibility",
+     "description": "Design, implement, and audit accessible UI to WCAG 2.2 Level AA across Web, iOS, and Android \u2014 semantic ARIA roles and labels, accessibility traits and hints, focus management, contrast\u2026",
+     "author": "affaan-m",
+     "repo": "affaan-m/ECC",
+     "stars": 301015,
+     "url": "https://alyn.dev/skills/accessibility",
+     "install": "npx alyn-cli add accessibility"
+    },
+    {
+     "slug": "design-system",
+     "name": "design-system",
+     "description": "Token architecture, component specifications, and slide generation. Three-layer tokens (primitive\u2192semantic\u2192component), CSS variables, spacing/typography scales, component specs, strategic\u2026",
+     "author": "nextlevelbuilder",
+     "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+     "stars": 148007,
+     "url": "https://alyn.dev/skills/design-system",
+     "install": "npx alyn-cli add design-system"
+    },
+    {
+     "slug": "ui-styling",
+     "name": "ui-styling",
+     "description": "Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based visual designs. Use when building\u2026",
+     "author": "nextlevelbuilder",
+     "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+     "stars": 148007,
+     "url": "https://alyn.dev/skills/ui-styling",
+     "install": "npx alyn-cli add ui-styling"
+    },
+    {
+     "slug": "brand-guidelines",
+     "name": "brand-guidelines",
+     "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual\u2026",
+     "author": "Anthropic",
+     "repo": "anthropics/skills",
+     "stars": 192782,
+     "url": "https://alyn.dev/skills/brand-guidelines",
+     "install": "npx alyn-cli add brand-guidelines"
+    },
+    {
+     "slug": "canvas-design",
+     "name": "canvas-design",
+     "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece\u2026",
+     "author": "Anthropic",
+     "repo": "anthropics/skills",
+     "stars": 192782,
+     "url": "https://alyn.dev/skills/canvas-design",
+     "install": "npx alyn-cli add canvas-design"
+    },
+    {
+     "slug": "impeccable",
+     "name": "impeccable",
+     "description": "Use to design, redesign, critique, audit, polish or animate a frontend: websites, landing pages, dashboards, app UI, components, native iOS/Android screens, or a design system (DESIGN.md).",
+     "author": "Paul Bakaus",
+     "repo": "pbakaus/impeccable",
+     "stars": 107905,
+     "url": "https://alyn.dev/skills/impeccable",
+     "install": "npx alyn-cli add impeccable"
+    },
+    {
+     "slug": "web-artifacts-builder",
+     "name": "web-artifacts-builder",
+     "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring\u2026",
+     "author": "Anthropic",
+     "repo": "anthropics/skills",
+     "stars": 192782,
+     "url": "https://alyn.dev/skills/web-artifacts-builder",
+     "install": "npx alyn-cli add web-artifacts-builder"
+    },
+    {
+     "slug": "emails",
+     "name": "emails",
+     "description": "When the user wants to create or improve automated email sequences, or asks what to send, when, or whether an email or flow is working: welcome, onboarding, nurture, and win-back flows. No\u2026",
+     "author": "Corey Haines",
+     "repo": "coreyhaines31/marketingskills",
+     "stars": 59663,
+     "url": "https://alyn.dev/skills/emails",
+     "install": "npx alyn-cli add emails"
+    }
+   ]
+  },
+  {
+   "id": "frontend",
+   "name": "Frontend",
+   "url": "https://alyn.dev/best-claude-skills/frontend",
+   "skills": [
+    {
+     "slug": "angular-developer",
+     "name": "angular-developer",
+     "description": "Generates Angular code and provides architectural guidance. Trigger when creating projects, components, or services, or for best practices on reactivity (signals, linkedSignal, resource)\u2026",
+     "author": "affaan-m",
+     "repo": "affaan-m/ECC",
+     "stars": 301015,
+     "url": "https://alyn.dev/skills/angular-developer",
+     "install": "npx alyn-cli add angular-developer"
+    },
+    {
+     "slug": "accessibility",
+     "name": "accessibility",
+     "description": "Design, implement, and audit accessible UI to WCAG 2.2 Level AA across Web, iOS, and Android \u2014 semantic ARIA roles and labels, accessibility traits and hints, focus management, contrast\u2026",
+     "author": "affaan-m",
+     "repo": "affaan-m/ECC",
+     "stars": 301015,
+     "url": "https://alyn.dev/skills/accessibility",
+     "install": "npx alyn-cli add accessibility"
+    },
+    {
+     "slug": "backend-patterns",
+     "name": "backend-patterns",
+     "description": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes. Use when building or reviewing Node.js\u2026",
+     "author": "affaan-m",
+     "repo": "affaan-m/ECC",
+     "stars": 301015,
+     "url": "https://alyn.dev/skills/backend-patterns",
+     "install": "npx alyn-cli add backend-patterns"
+    },
+    {
+     "slug": "design-system",
+     "name": "design-system",
+     "description": "Token architecture, component specifications, and slide generation. Three-layer tokens (primitive\u2192semantic\u2192component), CSS variables, spacing/typography scales, component specs, strategic\u2026",
+     "author": "nextlevelbuilder",
+     "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+     "stars": 148007,
+     "url": "https://alyn.dev/skills/design-system",
+     "install": "npx alyn-cli add design-system"
+    },
+    {
+     "slug": "ui-styling",
+     "name": "ui-styling",
+     "description": "Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based visual designs. Use when building\u2026",
+     "author": "nextlevelbuilder",
+     "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+     "stars": 148007,
+     "url": "https://alyn.dev/skills/ui-styling",
+     "install": "npx alyn-cli add ui-styling"
+    },
+    {
+     "slug": "impeccable",
+     "name": "impeccable",
+     "description": "Use to design, redesign, critique, audit, polish or animate a frontend: websites, landing pages, dashboards, app UI, components, native iOS/Android screens, or a design system (DESIGN.md).",
+     "author": "Paul Bakaus",
+     "repo": "pbakaus/impeccable",
+     "stars": 107905,
+     "url": "https://alyn.dev/skills/impeccable",
+     "install": "npx alyn-cli add impeccable"
+    },
+    {
+     "slug": "web-artifacts-builder",
+     "name": "web-artifacts-builder",
+     "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring\u2026",
+     "author": "Anthropic",
+     "repo": "anthropics/skills",
+     "stars": 192782,
+     "url": "https://alyn.dev/skills/web-artifacts-builder",
+     "install": "npx alyn-cli add web-artifacts-builder"
+    },
+    {
+     "slug": "d3-viz",
+     "name": "d3-viz",
+     "description": "Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisations, or any complex SVG-based\u2026",
+     "author": "OpenMontage",
+     "repo": "OpenMontageInc/OpenMontage",
+     "stars": 79555,
+     "url": "https://alyn.dev/skills/d3-viz",
+     "install": "npx alyn-cli add d3-viz"
+    },
+    {
+     "slug": "accessibility-compliance-accessibility-audit",
+     "name": "accessibility-compliance-accessibility-audit",
+     "description": "Audit pages and user journeys against a declared WCAG scope. Use when identifying keyboard, screen-reader, focus or contrast barriers and planning verified remediation.",
+     "author": "sickn33",
+     "repo": "sickn33/agentic-awesome-skills",
+     "stars": 49520,
+     "url": "https://alyn.dev/skills/accessibility-compliance-accessibility-audit",
+     "install": "npx alyn-cli add accessibility-compliance-accessibility-audit"
+    },
+    {
+     "slug": "acreadiness-assess",
+     "name": "acreadiness-assess",
+     "description": "Run the AgentRC readiness assessment on the current repository and produce a static HTML dashboard at reports/index.html. Wraps `npx github:microsoft/agentrc readiness` and hands off\u2026",
+     "author": "GitHub",
+     "repo": "github/awesome-copilot",
+     "stars": 41036,
+     "url": "https://alyn.dev/skills/acreadiness-assess",
+     "install": "npx alyn-cli add acreadiness-assess"
+    }
+   ]
+  },
+  {
+   "id": "web-development",
+   "name": "Web development",
+   "url": "https://alyn.dev/best-claude-skills/web-development",
+   "skills": [
+    {
+     "slug": "backend-patterns",
+     "name": "backend-patterns",
+     "description": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes. Use when building or reviewing Node.js\u2026",
+     "author": "affaan-m",
+     "repo": "affaan-m/ECC",
+     "stars": 301015,
+     "url": "https://alyn.dev/skills/backend-patterns",
+     "install": "npx alyn-cli add backend-patterns"
+    },
+    {
+     "slug": "brand-landingpage",
+     "name": "brand-landingpage",
+     "description": "Brand-first landing page designer \u2014 runs a brand-identity interview (colors, typography, shape language), then generates and iterates on a polished landing page via Stitch with\u2026",
+     "author": "wshobson",
+     "repo": "wshobson/agents",
+     "stars": 42408,
+     "url": "https://alyn.dev/skills/brand-landingpage",
+     "install": "npx alyn-cli add brand-landingpage"
+    },
+    {
+     "slug": "vercel-composition-patterns",
+     "name": "vercel-composition-patterns",
+     "description": "React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks\u2026",
+     "author": "Vercel",
+     "repo": "vercel-labs/agent-skills",
+     "stars": 33873,
+     "url": "https://alyn.dev/skills/vercel-composition-patterns",
+     "install": "npx alyn-cli add vercel-composition-patterns"
+    },
+    {
+     "slug": "vercel-react-best-practices",
+     "name": "vercel-react-best-practices",
+     "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal\u2026",
+     "author": "Vercel",
+     "repo": "vercel-labs/agent-skills",
+     "stars": 33873,
+     "url": "https://alyn.dev/skills/vercel-react-best-practices",
+     "install": "npx alyn-cli add vercel-react-best-practices"
+    },
+    {
+     "slug": "vercel-react-native-skills",
+     "name": "vercel-react-native-skills",
+     "description": "React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with\u2026",
+     "author": "Vercel",
+     "repo": "vercel-labs/agent-skills",
+     "stars": 33873,
+     "url": "https://alyn.dev/skills/vercel-react-native-skills",
+     "install": "npx alyn-cli add vercel-react-native-skills"
+    },
+    {
+     "slug": "webapp-testing",
+     "name": "webapp-testing",
+     "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and\u2026",
+     "author": "Anthropic",
+     "repo": "anthropics/skills",
+     "stars": 192782,
+     "url": "https://alyn.dev/skills/webapp-testing",
+     "install": "npx alyn-cli add webapp-testing"
+    },
+    {
+     "slug": "clone-website",
+     "name": "clone-website",
+     "description": "Rebuild existing web pages as working local code, matching their real content, assets, responsive layout, and interactions. Use for website cloning, replication, or reverse engineering\u2026",
+     "author": "JCodesMore",
+     "repo": "JCodesMore/ai-website-cloner-template",
+     "stars": 38993,
+     "url": "https://alyn.dev/skills/clone-website",
+     "install": "npx alyn-cli add clone-website"
+    },
+    {
+     "slug": "ai-release-hunter",
+     "name": "ai-release-hunter",
+     "description": "Daily digest of AI releases from Anthropic, Meta, Vercel Labs, OpenAI and Google GitHub repos, the Claude Cowork changelog, the claude.dev blog and Hacker News, deduplicated against a local\u2026",
+     "author": "davila7",
+     "repo": "davila7/claude-code-templates",
+     "stars": 33300,
+     "url": "https://alyn.dev/skills/ai-release-hunter",
+     "install": "npx alyn-cli add ai-release-hunter"
+    },
+    {
+     "slug": "django-expert",
+     "name": "django-expert",
+     "description": "Use when building Django web applications or REST APIs with Django REST Framework. Invoke when working with settings.py, models.py, manage.py, or any Django project file. Creates Django\u2026",
+     "author": "Jeffallan",
+     "repo": "Jeffallan/claude-skills",
+     "stars": 12314,
+     "url": "https://alyn.dev/skills/django-expert",
+     "install": "npx alyn-cli add django-expert"
+    },
+    {
+     "slug": "django-storages-s3",
+     "name": "django-storages-s3",
+     "description": "Use when configuring Django to store static and media files on AWS S3 with django-storages. Invoke when working with the STORAGES setting, S3 buckets, presigned URLs, CloudFront, or\u2026",
+     "author": "Jeffallan",
+     "repo": "Jeffallan/claude-skills",
+     "stars": 12314,
+     "url": "https://alyn.dev/skills/django-storages-s3",
+     "install": "npx alyn-cli add django-storages-s3"
+    }
+   ]
+  }
+ ],
+ "bundles": [
+  {
+   "id": "design",
+   "name": "Design setup",
+   "tagline": "Taste, polish and zero AI slop for every UI your agent builds.",
+   "count": 6,
+   "url": "https://alyn.dev/bundles/design",
+   "install": "npx alyn-cli add bundle:design"
+  },
+  {
+   "id": "engineering",
+   "name": "Engineering workflow",
+   "tagline": "Brainstorm, plan, test first, debug systematically, review, ship.",
+   "count": 8,
+   "url": "https://alyn.dev/bundles/engineering",
+   "install": "npx alyn-cli add bundle:engineering"
+  },
+  {
+   "id": "founder",
+   "name": "Startup founder setup",
+   "tagline": "From idea to PRD to launch, with an opinionated CEO review in between.",
+   "count": 8,
+   "url": "https://alyn.dev/bundles/founder",
+   "install": "npx alyn-cli add bundle:founder"
+  },
+  {
+   "id": "writer",
+   "name": "Human writing",
+   "tagline": "Text that does not read like a chatbot wrote it.",
+   "count": 5,
+   "url": "https://alyn.dev/bundles/writer",
+   "install": "npx alyn-cli add bundle:writer"
+  },
+  {
+   "id": "seo-geo",
+   "name": "SEO and GEO",
+   "tagline": "Rank on Google and get cited by ChatGPT and Perplexity.",
+   "count": 7,
+   "url": "https://alyn.dev/bundles/seo-geo",
+   "install": "npx alyn-cli add bundle:seo-geo"
+  },
+  {
+   "id": "marketing",
+   "name": "Marketing team",
+   "tagline": "CRO, copy, launches, emails and ads, from the most installed marketing pack.",
+   "count": 8,
+   "url": "https://alyn.dev/bundles/marketing",
+   "install": "npx alyn-cli add bundle:marketing"
+  },
+  {
+   "id": "documents",
+   "name": "Office documents",
+   "tagline": "Real PDF, Word, Excel and PowerPoint files from your agent.",
+   "count": 5,
+   "url": "https://alyn.dev/bundles/documents",
+   "install": "npx alyn-cli add bundle:documents"
+  },
+  {
+   "id": "video",
+   "name": "Video studio",
+   "tagline": "Launch videos, explainers and captions, as editable Remotion code.",
+   "count": 5,
+   "url": "https://alyn.dev/bundles/video",
+   "install": "npx alyn-cli add bundle:video"
+  },
+  {
+   "id": "lean",
+   "name": "Token saver",
+   "tagline": "Shorter answers, fewer tokens, less over-engineering.",
+   "count": 5,
+   "url": "https://alyn.dev/bundles/lean",
+   "install": "npx alyn-cli add bundle:lean"
+  }
+ ],
+ "fresh": [
+  {
+   "slug": "impeccable",
+   "name": "impeccable",
+   "description": "Use to design, redesign, critique, audit, polish or animate a frontend: websites, landing pages, dashboards, app UI, components, native iOS/Android screens, or a design system (DESIGN.md).",
+   "author": "Paul Bakaus",
+   "repo": "pbakaus/impeccable",
+   "stars": 107905,
+   "url": "https://alyn.dev/skills/impeccable",
+   "install": "npx alyn-cli add impeccable"
+  },
+  {
+   "slug": "banner-design",
+   "name": "banner-design",
+   "description": "Design banners for social media, ads, website heroes, creative assets, and print. Multiple art direction options with optional generated or supplied visuals. Actions: design, create\u2026",
+   "author": "nextlevelbuilder",
+   "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+   "stars": 148007,
+   "url": "https://alyn.dev/skills/banner-design",
+   "install": "npx alyn-cli add banner-design"
+  }
+ ]
+}

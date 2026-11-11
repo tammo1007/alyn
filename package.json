@@ -1,0 +1,14 @@
+{
+  "name": "alyn",
+  "private": true,
+  "description": "Alyn: the right skill for every task, in every agent. CLI, Alyn MCP guide and skills.",
+  "homepage": "https://alyn.dev",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test",
+    "readme": "node scripts/build-readme.mjs",
+    "skill-check": "node skills/skill-check/scripts/check.mjs"
+  }
+}

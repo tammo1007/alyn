@@ -28,6 +28,8 @@ If the `alyn-mcp` tools are available, call `find_skills` with a one-line descri
 find_skills(task: "make the pricing page look less AI-generated")
 ```
 
+Every tool and its inputs: [references/alyn-mcp-tools.md](references/alyn-mcp-tools.md).
+
 Then call `load_skill` with the best slug and follow the loaded SKILL.md for the rest of the task. Use `skill_info` first if you need to check the author, license or how widely it is used.
 
 ### 2. Alyn CLI
